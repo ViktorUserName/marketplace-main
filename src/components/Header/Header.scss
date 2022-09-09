@@ -1,0 +1,27 @@
+@import '../../mixin.scss';
+
+.header{
+    position: relative;
+    &::before{
+        @include separator
+    }
+}
+
+.header-content{
+    padding: 40px 0;
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 40px;
+        &-item a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
+

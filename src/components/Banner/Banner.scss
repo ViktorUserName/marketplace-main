@@ -1,0 +1,44 @@
+.banner{
+    background: url(../../img/MainBanner.png) 50%/cover no-repeat;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 220px 0 335px 0;
+    &__subtitle{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__title{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 829px;
+        margin: 20px 0 50px;
+    }
+    &__btn{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius:30px;
+        background-color: #4985FF;
+        padding: 15px 36px;
+        width: 200px;
+        cursor:pointer;
+        border: rgba(111, 111, 111, 0.25);
+    }
+}
