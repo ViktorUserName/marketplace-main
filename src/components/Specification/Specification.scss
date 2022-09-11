@@ -1,0 +1,60 @@
+@import "../../mixin.scss";
+
+.specification__present {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    &-content{
+        padding: 100px 0 300px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & h1 {
+            @include title;
+            color: white;
+            max-width: 540px;
+        }      
+    }
+}
+
+.specification__examples-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    position: relative;
+    top: -232px;
+    padding-bottom: 85px;
+    margin-bottom: -147px;
+    &::before {
+        @include separator;
+    }
+}
+.d213 {
+    height: 200px;
+}
+.specification__examples-item {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & h1 {
+        @include title;
+        text-align: left;
+        font-size: 18px;    
+    }
+    & p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    & a {
+        @include subtitle;
+        color: #504DC2;
+        text-decoration: underline;
+        text-align: left;
+
+    }
+}

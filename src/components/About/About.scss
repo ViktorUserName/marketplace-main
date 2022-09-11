@@ -1,0 +1,60 @@
+@import '../../mixin.scss';
+
+.about {
+    background-color: #F6F6F8;
+
+}
+.about-content {   
+    &__info {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        &::before{
+            @include separator;
+        }
+    }
+    &__info-text {
+        max-width: 489px;
+        & h1 {
+            @include title;
+            text-align: left
+        }
+        & p {
+            @include subtitle;
+            text-align: left;
+            font-size: 18px;
+            padding: 40px 0 30px 0;
+
+        }
+        & a {
+            text-decoration: underline;
+        }
+    }
+    &__info-img {
+        max-width: 500px;
+    }
+}
+
+.about-content__card {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 70px 0;
+    justify-content: space-around;
+    &-score {
+        display: flex;
+        gap: 10px;
+        & h1 {
+            @include title;
+        }
+    }
+    &-items p {
+        max-width: 104px;
+        @include subtitle;
+        text-align: left;
+    }
+}

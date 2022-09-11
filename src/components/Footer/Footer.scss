@@ -1,0 +1,50 @@
+@import "../../mixin.scss";
+
+.footer {
+    background-color: #F6F6F8;
+}
+.footer-last {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: rgb(151, 149, 149);
+}
+
+.footer__info {
+    position: relative; 
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 70px 0;
+    &::before {
+        @include separator;
+    }
+    &-item {
+        max-width: 240px;
+        &-label {
+            display: flex;
+            flex-direction: row;
+            gap: 15px
+        }
+        &-label p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+            color: gray;
+        }
+    }
+
+    &-item-title {
+        @include subtitle;
+        color: black;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+}

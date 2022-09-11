@@ -1,0 +1,51 @@
+import React from 'react';
+import "./Specification.scss"
+import SpecImg from '../../img/SpecificationIMG.png'
+
+
+const Specification = () => {
+    return (
+        <section className='specification'>
+
+        <div className="specification__present">
+            <div className="wrapper">    
+                <div className="specification__present-content">
+                        <h1>
+                        Наши работы, на которых 
+                        мы специализируемся
+                        </h1>
+                        <button className='banner-content__btn'>Все услуги</button> 
+                </div>
+            </div>
+        </div>
+
+        <div className="specification__examples">
+            <div className="wrapper">
+                <div className="specification__examples-items">
+                    <div className="specification__examples-item">
+                        <img src={SpecImg} alt=""/>
+                        <h1>01. Исследование и упаковка</h1>
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div className="specification__examples-item">
+                        <img src={SpecImg} alt=""/>
+                        <h1>01. Исследование и упаковка</h1>
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                    <div className="specification__examples-item">
+                        <img src={SpecImg} alt=""/>
+                        <h1>01. Исследование и упаковка</h1>
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+    );
+};
+
+export default Specification;
