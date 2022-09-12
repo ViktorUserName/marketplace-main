@@ -50,3 +50,18 @@
     margin-top: 12px;
 }
 
+@media (max-width: 800px){
+    .services-text__title {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .services-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+    .services-items__item-img {
+        top:-40px;
+    }
+}
+

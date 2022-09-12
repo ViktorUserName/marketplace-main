@@ -42,3 +42,14 @@
         border: rgba(111, 111, 111, 0.25);
     }
 }
+
+@media (max-width: 760px) {
+    .banner-content__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-content {
+        padding: 80px 0 160px 0;
+
+    }
+}

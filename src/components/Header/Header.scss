@@ -25,3 +25,36 @@
     }
 }
 
+
+@media (max-width: 760px) {
+    .header-content {
+        display: none;
+    }
+    .header::before {
+        content: none;
+    }
+    .header-burger{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        padding: 30px 0;
+        cursor: pointer;
+        & span{
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            // top: 10px;
+        }
+        .span-1 {
+            top: 16px;
+        }
+        .span-2 {
+            top: 25px;
+        }  
+        .span-3 {
+            top: 34px;
+        } 
+    }
+
+}

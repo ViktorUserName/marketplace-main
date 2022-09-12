@@ -48,3 +48,19 @@
         padding-bottom: 30px;
     }
 }
+
+@media (max-width: 400px) {
+    .footer__info-item p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer__info-item-label {
+        gap: 8px;
+    }
+    .footer__info-item-title {
+        padding-bottom: 20px;
+    }
+    .footer__info {
+        gap: 20px;
+    }
+}

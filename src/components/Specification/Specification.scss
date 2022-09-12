@@ -58,3 +58,38 @@
 
     }
 }
+
+@media (max-width: 1160px){
+    .specification__examples-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .specification__examples-item {
+        gap:none;
+    }
+}
+@media (max-width: 800px){
+    .specification__present-content{
+        flex-direction: column;
+        gap: 25px;
+        & h1 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .specification__examples-item{
+         align-items: center;
+
+         & p {
+        font-size: 14px;
+        line-height: 20px;
+        }
+        & img {
+            width: 80%;
+        }
+    }
+
+}

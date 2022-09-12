@@ -36,6 +36,7 @@
     }
     &__info-img {
         max-width: 500px;
+        width: 50%;
     }
 }
 
@@ -56,5 +57,29 @@
         max-width: 104px;
         @include subtitle;
         text-align: left;
+    }
+}
+
+@media (max-width: 800px){
+    .about-content__info {
+        padding-top: 70px;
+        padding-bottom: 40px;
+        &-img {
+        display: none;
+        }
+    }
+    .about-content__info-text {
+        max-width: 100%;
+        & h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+        & p {
+            font-size: 14px;
+        }
+    }
+    .about-content__card {
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
