@@ -21,6 +21,10 @@
     justify-content: flex-end;
     gap: 40px;
     padding: 70px 0;
+    &-Socials {
+        display: flex;
+        flex-direction: column;
+    }
     &::before {
         @include separator;
     }
@@ -31,7 +35,7 @@
             flex-direction: row;
             gap: 15px
         }
-        &-label p {
+        &-label {
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
@@ -51,11 +55,12 @@
 
 @media (max-width: 400px) {
     .footer__info-item p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
     .footer__info-item-label {
         gap: 8px;
+        
     }
     .footer__info-item-title {
         padding-bottom: 20px;

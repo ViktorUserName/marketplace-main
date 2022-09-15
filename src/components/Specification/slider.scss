@@ -1,0 +1,11 @@
+.slider-content {
+    width: 100%;
+}
+.your-class {
+    width: 100%;
+    & div {
+        width: 50%;
+        background: black;
+        margin: 10px;
+    }
+}

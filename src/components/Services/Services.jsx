@@ -5,12 +5,12 @@ import itemSvg from '../../img/ServicesIMG.svg'
 
 const Services = () => {
     return (
-        <section className='services'>
+        <section className='services' id='about'>
             <div className="wrapper">
                 <div className='services-content'>
                     <div className="services-text">
                         <h2 className='services-text__title'>
-                            Мы создаем мобильные приложениядля крупных корпораций
+                        We create desktop web applications
                         </h2>
                         <p className="services-text__subtitle">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -12,11 +12,10 @@ const Header = () => {
                 </div>
                 <nav className='header-content'>
                     <ul className='header-content__menu'>
-                        <li className='header-content__menu-item'><a href="#">Главная</a></li>
-                        <li className='header-content__menu-item'><a href="#">Наши проекты</a></li>
-                        <li className='header-content__menu-item'><a href="#">Услуги</a></li>
-                        <li className='header-content__menu-item'><a href="#">Новости</a></li>
-                        <li className='header-content__menu-item'><a href="#">Контакты</a></li>
+                        <li className='header-content__menu-item'><a href="/">Main</a></li>
+                        <li className='header-content__menu-item'><a href="#about">About</a></li>
+                        <li className='header-content__menu-item'><a href="#ourWork">Our works</a></li>
+                        <li className='header-content__menu-item'><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </div>

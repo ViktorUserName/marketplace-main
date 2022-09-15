@@ -1,11 +1,12 @@
 import React from 'react';
 import "./Specification.scss"
 import SpecImg from '../../img/SpecificationIMG.png'
+import Slider from './Slider';
 
 
 const Specification = () => {
     return (
-        <section className='specification'>
+        <section className='specification' id='ourWork'>
 
         <div className="specification__present">
             <div className="wrapper">    
@@ -19,7 +20,9 @@ const Specification = () => {
             </div>
         </div>
 
-        <div className="specification__examples">
+        
+        <Slider/>
+        {/* <div className="specification__examples">
             <div className="wrapper">
                 <div className="specification__examples-items">
                     <div className="specification__examples-item">
@@ -42,7 +45,7 @@ const Specification = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         </section>
         
     );
