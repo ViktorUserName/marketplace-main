@@ -11,12 +11,12 @@ import Footer from './components/Footer/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Banner/>
-    <Services/>
-    <About/> */}
+    <Banner/>
+    {/* <Services/>
+    <About/>
     <Specification/>
     <Request/>
-    <Footer/>
+    <Footer/> */}
   </React.StrictMode>
 );
 

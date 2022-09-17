@@ -20,8 +20,9 @@ const Specification = () => {
             </div>
         </div>
 
-        
+        <div className="specification__examples">
         <Slider/>
+        </div>
         {/* <div className="specification__examples">
             <div className="wrapper">
                 <div className="specification__examples-items">
