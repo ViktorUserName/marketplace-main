@@ -22,21 +22,21 @@ const Services = () => {
                         <div className="services-items__item">
                             <img src={itemSvg} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
-                                <h3 className="item-text__title">Создание сайтов</h3>
+                                <h3 className="item-text__title">UX/UI</h3>
+                                <p className="item-text__subtitle">We help to choose design</p>
+                            </div>
+                        </div>
+                        <div className="services-items__item">
+                            <img src={itemSvg} alt="" className="services-items__item-img" />
+                            <div className="services-items__item-text">
+                                <h3 className="item-text__title">Single-page application</h3>
                                 <p className="item-text__subtitle">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
                             </div>
                         </div>
                         <div className="services-items__item">
                             <img src={itemSvg} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
-                                <h3 className="item-text__title">Создание сайтов</h3>
-                                <p className="item-text__subtitle">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-                            </div>
-                        </div>
-                        <div className="services-items__item">
-                            <img src={itemSvg} alt="" className="services-items__item-img" />
-                            <div className="services-items__item-text">
-                                <h3 className="item-text__title">Создание сайтов</h3>
+                                <h3 className="item-text__title">Multi-page application</h3>
                                 <p className="item-text__subtitle">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
                             </div>
                         </div>

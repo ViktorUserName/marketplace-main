@@ -70,15 +70,21 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 50%;
         height: 100%;
         // background-color: black;
-        padding: 100px 30px 30px 30px;
+        padding: 45px 30px 30px 30px;
         left: -100%;
         transition: left 0.3s ease 0s;
         overflow: auto;
     }
     ._active {
         left: 0;
+    }
+    .header-content__menu {
+        display: flex;
+        box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 70%);
+        flex-direction: column;
+        align-items: flex-start;
     }
 }

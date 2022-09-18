@@ -11,9 +11,9 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-content__info">
                         <div className="about-content__info-text">
-                            <h1>Высокие стандарты разработки</h1>
-                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                            <a href="#">Подробнее о компании</a>
+                            <h1>High quality of development</h1>
+                            <p>We use React-tools for solve all  development tasks. Do you want single-page application? Or maybe you want multipage application?
+Write us, we help you to choose design for your application, estimate the time and do best in the shortest possible time.</p>
                         </div>
                         <img src={AboutImg} alt="" className="about-content__info-img" />   
                     </div>

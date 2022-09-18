@@ -12,10 +12,8 @@ const Specification = () => {
             <div className="wrapper">    
                 <div className="specification__present-content">
                         <h1>
-                        Наши работы, на которых 
-                        мы специализируемся
+                        Examples of our projects
                         </h1>
-                        <button className='banner-content__btn'>Все услуги</button> 
                 </div>
             </div>
         </div>
