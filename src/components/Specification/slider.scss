@@ -10,22 +10,31 @@
     }
     & h1 {
         @include subtitle;
-        color: black;
+        color: white;
     }
 }
 .swiper {
     box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 20%);
-}
-
-@media (max-width: 670px) {
-    .swiper-button-prev {
-        font-size: 10px;
-    } 
-    .swiper-button-prev::after{
-        font-size: 10px;
+    background-color: #555454;
+    border-radius: 50px;
+    &-button-prev::after{
+        color: goldenrod;
     }
-    .swiper-button-next::after{
-        font-size: 10px;
-    };
-    // --swiper-navigation-size: 44px;
+    &-button-next::after{
+        color: goldenrod;
+    }
+    &-pagination-bullet-active{
+        background-color: goldenrod !important; 
+    }
+}
+@media (max-width: 678px) {
+    .swiper {
+        border-radius: 30px;
+        &-button-next::after {
+            display: none;
+        } 
+        &-button-prev::after{
+            display: none;
+        }
+    }
 }
