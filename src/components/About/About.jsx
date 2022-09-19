@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.scss';
-import AboutImg from '../../img/AboutIMG.png';
+import AboutImg from '../../img/BlockIMG.jpg';
 import CardSvg from '../../img/AboutItem.svg';
 
 

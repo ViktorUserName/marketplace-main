@@ -33,26 +33,27 @@
             &::before{
                 @include separator;
             }
-        }
-        &__info-text {
-            max-width: 489px;
-            & h1 {
-                @include title;
-                text-align: left
+            &-text {
+                max-width: 489px;
+                & h1 {
+                    @include title;
+                    text-align: left
+                }
+                & p {
+                    @include subtitle;
+                    text-align: left;
+                    font-size: 18px;
+                    padding: 40px 0 30px 0;
+                }
+                & a {
+                    text-decoration: underline;
+                }
             }
-            & p {
-                @include subtitle;
-                text-align: left;
-                font-size: 18px;
-                padding: 40px 0 30px 0;
+            &-img {
+                max-width: 500px;
+                width: 50%;
+                border-radius: 20px;
             }
-            & a {
-                text-decoration: underline;
-            }
-        }
-        &__info-img {
-            max-width: 500px;
-            width: 50%;
         }
     }
 }
