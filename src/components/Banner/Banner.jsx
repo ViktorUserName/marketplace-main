@@ -10,13 +10,13 @@ const Banner = () => {
             <div className="wrapper">
                 <div className='banner-content'>
                     <p className='banner-content__subtitle'>
-                        Передовая IT студия
+                        Web Studio
                     </p>
                     <h1 className="banner-content__title">
                         Мы создаем легкие решения сложных задач и проблем
                     </h1>
-                    <a href="#" className="banner-content__btn">
-                        Наши проекты
+                    <a href="#ourWork" className="banner-content__btn">
+                        Our Works
                     </a>
                 </div>
             </div>

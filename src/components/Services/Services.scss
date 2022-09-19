@@ -1,5 +1,8 @@
 @import "../../mixin.scss";
 
+.services{
+    background-color: #323232;
+}
 .services-content{
     display: flex;
     justify-content: center;
@@ -15,9 +18,11 @@
     max-width: 739px;
     &__title{
         @include title;
+        color: white;
     }
     &__subtitle{
         @include subtitle;
+        color: white;
         max-width: 730px;
     }
 }
@@ -25,20 +30,24 @@
 .services-items{
     display: flex;
     margin-bottom: 120px;
+    gap: 10px;
     &__item {
         display: flex;
         flex-direction: row ;
-        gap: 17px;
+        gap: 10px;
     }
     &__item-img{
         position: relative;
-        top: -53px; 
+        top: -53px;
+        height: 110px;
+        width: 110px; 
     }
     
 }
 
 .item-text__title {
-    @include item-title
+    @include item-title;
+    color: white;
 }
 
 .item-text__subtitle {
@@ -57,7 +66,6 @@
     }
     .services-items {
         flex-direction: column;
-        align-items: center;
         gap: 45px;
     }
     .services-items__item-img {

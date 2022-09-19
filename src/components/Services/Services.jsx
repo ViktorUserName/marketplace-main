@@ -13,9 +13,7 @@ const Services = () => {
                         We create desktop web applications
                         </h2>
                         <p className="services-text__subtitle">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Explicabo eveniet placeat similique aliquam corporis repudiandae
-                            corrupti neque doloremque laboriosam facilis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit ut fugit eveniet commodi labore saepe autem magni non animi?
                         </p>
                     </div>
                     <div className="services-items">
@@ -30,14 +28,14 @@ const Services = () => {
                             <img src={itemSvg} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
                                 <h3 className="item-text__title">Single-page application</h3>
-                                <p className="item-text__subtitle">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                                <p className="item-text__subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, suscipit..</p>
                             </div>
                         </div>
                         <div className="services-items__item">
                             <img src={itemSvg} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
                                 <h3 className="item-text__title">Multi-page application</h3>
-                                <p className="item-text__subtitle">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                                <p className="item-text__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quas.</p>
                             </div>
                         </div>
                     </div>
