@@ -2,6 +2,16 @@ import React from 'react';
 import './About.scss';
 import AboutImg from '../../img/BlockIMG.jpg';
 import CardSvg from '../../img/AboutItem.svg';
+import js from '../../img/js.svg';
+import ts from '../../img/ts.svg';
+import sass from '../../img/sass.svg';
+import rreact from '../../img/react.svg';
+import redux from '../../img/redux.svg';
+
+
+
+
+
 
 
 const About = () => {
@@ -18,41 +28,40 @@ Write us, we help you to choose design for your application, estimate the time a
                         <img src={AboutImg} alt="" className="about-content__info-img" />   
                     </div>
 
+                    <div className="about__technologi">
+                    TECHNOLOGIES WE USE
+                    </div>
+
                     <div className="about-content__card">
                         <div className="about-content__card-items">
                             <div className="about-content__card-score">
-                                <img src={CardSvg} alt="" className="about-content__card-svg" />
-                                <h1>125</h1>   
+                                <img src={js} alt="" className="about-content__card-svg" />
                             </div>
-                            <p>Our projects</p>
+                            <p>JavaScript</p>
                         </div>
                         <div className="about-content__card-items">
                             <div className="about-content__card-score">
-                                <img src={CardSvg} alt="" className="about-content__card-svg" />
-                                <h1>125</h1>   
+                                <img src={ts} alt="" className="about-content__card-svg" />  
                             </div>
-                            <p>Our projects</p>
+                            <p>TypeScript</p>
                         </div>
                         <div className="about-content__card-items">
                             <div className="about-content__card-score">
-                                <img src={CardSvg} alt="" className="about-content__card-svg" />
-                                <h1>125</h1>   
+                                <img src={sass} alt="" className="about-content__card-svg" />
                             </div>
-                            <p>Our projects</p>
+                            <p>Sass</p>
                         </div>
                         <div className="about-content__card-items">
                             <div className="about-content__card-score">
-                                <img src={CardSvg} alt="" className="about-content__card-svg" />
-                                <h1>125</h1>   
+                                <img src={rreact} alt="" className="about-content__card-svg" />   
                             </div>
-                            <p>Our projects</p>
+                            <p>React</p>
                         </div>
                         <div className="about-content__card-items">
                             <div className="about-content__card-score">
-                                <img src={CardSvg} alt="" className="about-content__card-svg" />
-                                <h1>125</h1>   
+                                <img src={redux} alt="" className="about-content__card-svg" />  
                             </div>
-                            <p>Our projects</p>
+                            <p>Redux</p>
                         </div>
                     </div>
                 </div>

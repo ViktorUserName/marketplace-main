@@ -2,6 +2,8 @@ import React, { useState, setState } from 'react';
 // import Burger from './Burger';
 import "./Header.scss";
 
+
+
 const Header = () => { 
     const [isActive, setActive] = useState(true)
     

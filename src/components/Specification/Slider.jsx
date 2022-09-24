@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
-import img1 from "./sliderIMG/first.jpg";
+import img1 from "../../img/examples/coffee.png";
 import img2 from "./sliderIMG/second.jpg";
 import img3 from "./sliderIMG/third.jpg";
 
@@ -65,8 +65,10 @@ const Slider = () => {
             >
             <SwiperSlide>
                 <div className="slider-image">
-                    <img src={img1} alt="" className="" />
-                    <h1 className="web-info">Lorum ipsum</h1>
+                    <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a">
+                        <img src={img1} alt="" className="teest" />
+                    </a>
+                    <h1 className="web-info">Single-page application for coffee shop. The app has 3 examples of slider. Used technologies: React, Typescript, Swiper.js, Sass</h1>
                 </div>
             </SwiperSlide>
             <SwiperSlide>

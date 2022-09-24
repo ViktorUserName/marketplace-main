@@ -2,7 +2,9 @@
 
 .slider-image {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    // justify-content: space-around;
     padding: 30px 0 70px 0;
     align-items: center;
     & img {
@@ -11,6 +13,22 @@
     & h1 {
         @include subtitle;
         color: white;
+        max-width: 400px;
+        text-align: left;
+        text-indent: 5px;
+    }
+    & a {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        &::after {
+            content: "Visit";
+            position: absolute;
+            @include subtitle;
+            font-size: 14px;
+            bottom: -25px;
+            // text-decoration: underline;
+        }
     }
 }
 .swiper {

@@ -13,7 +13,7 @@ const Banner = () => {
                         Web Studio
                     </p>
                     <h1 className="banner-content__title">
-                        Мы создаем легкие решения сложных задач и проблем
+                    Сreate easy solutions for difficult tasks and problems
                     </h1>
                     <a href="#ourWork" className="banner-content__btn">
                         Our Works

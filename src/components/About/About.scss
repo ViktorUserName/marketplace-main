@@ -1,26 +1,36 @@
 @import '../../mixin.scss';
 
 .about {
+    &__technologi {
+        @include title;
+        padding-top: 70px;
+    }
     background-color: #F6F6F8;
     &-content {
         &__card {
             display: flex;
             flex-direction: row;
             gap: 80px;
-            padding: 70px 0;
+            padding: 30px 0 70px 0;
             justify-content: space-around;
             &-score {
                 display: flex;
                 gap: 10px;
+                justify-content: center;
                 & h1 {
                     @include title;
                 }
             }
-            &-items p {
+            &-items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & p {
                 max-width: 104px;
                 @include subtitle;
                 text-align: left;
             }
+        }
         }   
         &__info {
             position: relative;
@@ -59,6 +69,9 @@
 }
 
 @media (max-width: 800px){
+    .about__technologi {
+        font-size: 26px;
+    }
     .about-content__info {
         padding-top: 70px;
         padding-bottom: 40px;
