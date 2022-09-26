@@ -1,13 +1,13 @@
 import React from 'react';
-import "./slider.scss"
+import "./Slider.scss"
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import img1 from "../../img/examples/coffee.png";
-import img2 from "./sliderIMG/second.jpg";
-import img3 from "./sliderIMG/third.jpg";
+import img2 from "../../img/examples/hause.png";
+import img3 from "../../img/examples/taste-eat.png";
 
 // Swiper.use([Navigation]);
 // Swiper.use([Pagination]);
@@ -64,24 +64,22 @@ const Slider = () => {
 
             >
             <SwiperSlide>
-                <div className="slider-image">
-                    <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a">
-                        <img src={img1} alt="" className="teest" />
+                    <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a slider-image">
+                        <img src={img1} alt="Coffe-shop example" className="teest" />
+                        <h1 className="web-info">Single-page application for coffee shop. The app has 3 examples of slider.</h1>
                     </a>
-                    <h1 className="web-info">Single-page application for coffee shop. The app has 3 examples of slider. Used technologies: React, Typescript, Swiper.js, Sass</h1>
-                </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="slider-image">
-                    <img src={img2} alt="" className="" />
-                    <h1 className="web-info">Lorum ipsum</h1>
-                </div>
+                    <a href="https://hause-2a7ddc.netlify.app/"  target='_blank' className="slider-a slider-image">
+                        <img src={img2} alt="Premium alcohol shop example" className="teest" />
+                        <h1 className="web-info">Single-page application for Premium alcohol shop.</h1>
+                    </a>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="slider-image">
-                    <img src={img3} alt="" className="" />
-                    <h1 className="web-info">Lorum ipsum</h1>
-                </div>
+            <a href="#"  target='_blank' className="slider-a slider-image">
+                        <img src={img3} alt="Restaurant example" className="teest" />
+                        <h1 className="web-info">Single-page application for restaurant.</h1>
+                    </a>
             </SwiperSlide>
             </Swiper>
         </div>

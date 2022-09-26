@@ -8,12 +8,6 @@ import sass from '../../img/sass.svg';
 import rreact from '../../img/react.svg';
 import redux from '../../img/redux.svg';
 
-
-
-
-
-
-
 const About = () => {
     return (
         <section className='about'>
@@ -23,7 +17,7 @@ const About = () => {
                         <div className="about-content__info-text">
                             <h1>High quality of development</h1>
                             <p>We use React-tools for solve all  development tasks. Do you want single-page application? Or maybe you want multipage application?
-Write us, we help you to choose design for your application, estimate the time and do best in the shortest possible time.</p>
+                                Write us, we help you to choose design for your application, estimate the time and do best in the shortest possible time.</p>
                         </div>
                         <img src={AboutImg} alt="" className="about-content__info-img" />   
                     </div>
