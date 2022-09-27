@@ -76,7 +76,7 @@ const Slider = () => {
                     </a>
             </SwiperSlide>
             <SwiperSlide>
-            <a href="#"  target='_blank' className="slider-a slider-image">
+                    <a href="#"  target='_blank' className="slider-a slider-image">
                         <img src={img3} alt="Restaurant example" className="teest" />
                         <h1 className="web-info">Single-page application for restaurant.</h1>
                     </a>
