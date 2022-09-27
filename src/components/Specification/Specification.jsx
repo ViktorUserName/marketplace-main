@@ -2,6 +2,7 @@ import React from 'react';
 import "./Specification.scss"
 import SpecImg from '../../img/SpecificationIMG.png'
 import Slider from './Slider';
+import "./slider.scss";
 
 
 const Specification = () => {
