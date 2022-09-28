@@ -16,7 +16,7 @@
         left: 10px;
     }
     &-content{
-        padding: 40px 0;
+        padding: 15px 0;
         &__menu{
             display: flex;
             flex-direction: row;
@@ -45,7 +45,6 @@
     //     content: none;
     // }
     .header-content{
-        padding: 15px 0;
         &__menu{
             justify-content: space-around;
             gap: 10px;
