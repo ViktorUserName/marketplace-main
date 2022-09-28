@@ -14,7 +14,6 @@
     text-align: center;
     color: white;
 }
-
 .footer__info {
     position: relative; 
     display: flex;
@@ -49,6 +48,11 @@
             }
             & a{
                 @include subtitle;
+                transition: 0.5s;
+            }
+            & a:hover{
+                color: goldenrod;
+                transition: 0.5s;
             }
         }
     }

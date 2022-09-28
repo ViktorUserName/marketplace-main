@@ -40,12 +40,18 @@
     background-color: #555454;
     border-radius: 50px;
     &-button-prev::after{
+        display: none;
         color: goldenrod;
     }
     &-button-next::after{
+        display: none;
         color: goldenrod;
     }
+    &-pagination{
+        display: none;
+    }
     &-pagination-bullet-active{
+        display: none;
         background-color: goldenrod !important; 
     }
 }

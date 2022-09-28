@@ -7,7 +7,6 @@
     text-align: center;
     color: #323232;
 }
-
 @mixin subtitle{
     font-family: 'Montserrat';
     font-style: normal;
@@ -17,7 +16,6 @@
     text-align: center;
     color: #999999;
 }
-
 @mixin item-title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -26,7 +24,6 @@
     line-height: 22px;
     color: #000000
 }
-
 @mixin separator {
     content: "";
     position: absolute;

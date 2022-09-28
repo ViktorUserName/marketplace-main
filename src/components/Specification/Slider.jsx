@@ -1,7 +1,7 @@
 import React from 'react';
 import "./slider.scss"
 
-import { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/scss';
@@ -17,9 +17,14 @@ const Slider = () => {
         <div className='wrapper'>
             <Swiper 
             spaceBetween={50} 
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             navigation
             pagination={{ clickable: true }}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+            }}
+            slidePerView="auto"
             >
             <SwiperSlide>
                     <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a slider-image">

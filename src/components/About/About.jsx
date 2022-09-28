@@ -16,14 +16,16 @@ const About = () => {
                     <div className="about-content__info">
                         <div className="about-content__info-text">
                             <h1>High quality of development</h1>
-                            <p>We use React-tools for solve all  development tasks. Do you want single-page application? Or maybe you want multipage application?
-                                Write us, we help you to choose design for your application, estimate the time and do best in the shortest possible time.</p>
+                            <p>
+                                We use React-tools for solve all  development tasks. Do you want single-page application? Or maybe you want multipage application?
+                                Write us, we help you to choose design for your application, estimate the time and do best in the shortest possible time.
+                            </p>
                         </div>
                         <img src={AboutImg} alt="" className="about-content__info-img" />   
                     </div>
 
                     <div className="about__technologi">
-                    TECHNOLOGIES WE USE
+                        TECHNOLOGIES WE USE
                     </div>
 
                     <div className="about-content__card">

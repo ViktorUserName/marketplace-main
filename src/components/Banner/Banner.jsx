@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from '../Header/Header';
 import "./Banner.scss"
 
 
 const Banner = () => {
     return (
-        <main className="banner">
-            <Header/>
+        <main className="banner" id='home'>
             <div className="wrapper">
                 <div className='banner-content'>
                     <p className='banner-content__subtitle'>

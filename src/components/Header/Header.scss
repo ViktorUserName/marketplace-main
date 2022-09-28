@@ -1,10 +1,15 @@
 @import '../../mixin.scss';
 
 .header{
-    position: relative;
-    &::before{
-        @include separator
-    }
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #323232;
+    border-bottom: 2px solid goldenrod;
+    // &::before{
+    //     @include separator
+    // }
     &-burger{
         position: absolute;
         top: 20px;
@@ -24,6 +29,11 @@
                 font-size: 16px;
                 line-height: 20px;
                 color: #FFFFFF;
+                transition: 0.5s;
+            }
+            &-item a:hover{
+                color: goldenrod;
+                transition: 0.5s;
             }
         }
     }
@@ -31,12 +41,15 @@
 }
 
 @media (max-width: 760px) {
-    .header::before {
-        content: none;
-    }
-    .header{
-        position: sticky;
-        top: 0;
+    // .header::before {
+    //     content: none;
+    // }
+    .header-content{
+        padding: 20px 0;
+        &__menu{
+            justify-content: space-around;
+            gap: 10px;
+        }
     }
     .header-burger{  
         height: 20px;
@@ -67,24 +80,24 @@
     .header-burger::before{
         bottom: 0;
     }
-    .header-content {
-        position: absolute;
-        top: 0;
-        width: 50%;
-        height: 100%;
-        padding: 45px 30px 30px 30px;
-        left: -100%;
-        transition: left 0.3s ease 0s;
-        &__menu {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #323232;
-            border-radius: 30px;
-            padding: 20px 0;
-        }
-    }
-    }
+    // .header-content {
+    //     position: absolute;
+    //     top: 0;
+    //     width: 50%;
+    //     height: 100%;
+    //     padding: 45px 30px 30px 30px;
+    //     left: -100%;
+    //     transition: left 0.3s ease 0s;
+    //     &__menu {
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         background-color: #323232;
+    //         border-radius: 30px;
+    //         padding: 20px 0;
+    //     }
+    // }
+}
     ._active {
         left: 0;
         z-index: 20;

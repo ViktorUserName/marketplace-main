@@ -7,10 +7,12 @@ import About from './components/About/About';
 import Specification from './components/Specification/Specification';
 import Request from './components/Request/Request';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header/>
     <Banner/>
     <Services/>
     <About/>
