@@ -11,7 +11,7 @@ const Specification = () => {
                 <div className="wrapper">    
                     <div className="specification__present-content">
                             <h1>
-                            Examples of our projects
+                                Examples of our projects
                             </h1>
                     </div>
                 </div>

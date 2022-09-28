@@ -5,8 +5,6 @@ import SPA from '../../img/SPA.svg'
 import MPA from '../../img/MPA.svg'
 import uxui from '../../img/uxui.svg'
 
-
-
 const Services = () => {
     return (
         <section className='services' id='about'>

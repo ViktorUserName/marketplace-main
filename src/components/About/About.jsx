@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.scss';
 import AboutImg from '../../img/BlockIMG.jpg';
-import CardSvg from '../../img/AboutItem.svg';
 import js from '../../img/js.svg';
 import ts from '../../img/ts.svg';
 import sass from '../../img/sass.svg';

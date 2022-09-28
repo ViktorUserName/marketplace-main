@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-around;
     padding: 70px 0;
-    &-Socials {
+    &-socials {
         display: flex;
         flex-direction: column;
         gap: 6px;
@@ -62,7 +62,6 @@
         text-align: left;
     }
 }
-
 @media (max-width: 480px) {
     .footer__info-item-label {
         gap: 8px; 

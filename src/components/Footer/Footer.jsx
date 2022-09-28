@@ -4,8 +4,6 @@ import emeil from '../../img/emeillMG.svg';
 import phone from '../../img/phoneIMG.svg';
 import inst from "../../img/instagramICO.svg";
 
-
-
 const Footer = () => {
     return (
         <section className='footer' id='contacts'>
@@ -23,8 +21,7 @@ const Footer = () => {
                             <p><a href="tel:+375256263144">+375256263144</a></p>
                         </div>
                     </div>
-
-                    <div className="footer__info-Socials">
+                    <div className="footer__info-socials">
                         <p className="footer__info-item-title">Socials</p>
                         <div className='footer__info-item-label'>
                             <img src={inst} alt="instagramm" />
@@ -34,8 +31,6 @@ const Footer = () => {
                             <img src={inst} alt="instagramm" />
                             <a href='https://instagram.com/lobster_piza'>@lobster_piza</a>
                         </div>
-                        
-                        
                     </div>
                 </div>
                 <p className="footer-last">(с) 2022. All Rights Reserved.</p>

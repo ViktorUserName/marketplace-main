@@ -8,13 +8,12 @@ class Burger extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
     
-    
-     handleClick() {
+    handleClick() {
         this.setState(prevState => ({
-          isToggleOn: !prevState.isToggleOn
+            isToggleOn: !prevState.isToggleOn
         }));
     }
-   
+
     render() {
         return (
                 <div className='header-burger' onClick={this.handleClick}>

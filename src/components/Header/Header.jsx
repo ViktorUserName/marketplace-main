@@ -1,20 +1,15 @@
 import React, { useState, setState } from 'react';
-// import Burger from './Burger';
 import "./Header.scss";
-
-
 
 const Header = () => { 
     const [isActive, setActive] = useState(true)
     
-
     return (
         <header className='header'>
             <div className="wrapper">
                 {/* <div className='header-burger' onClick={()=>{setActive(!isActive)}}>
                     <span></span>
                 </div> */}
-                
                 <nav className={isActive? 'header-content' : 'header-content _active'} onClick={()=>{setActive(!isActive)}}>
                     <ul className='header-content__menu'>
                         <li className='header-content__menu-item'><a href="#home">Home</a></li>
