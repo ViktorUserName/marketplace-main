@@ -39,6 +39,12 @@
     box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 20%);
     background-color: #555454;
     border-radius: 50px;
+    &-button-prev{ 
+        display: none !important;
+    }
+    &-button-next{ 
+        display: none !important;
+    }
     &-button-prev::after{
         display: none;
         color: goldenrod;

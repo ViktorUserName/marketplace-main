@@ -3,6 +3,7 @@ import './Footer.scss';
 import emeil from '../../img/emeillMG.svg';
 import phone from '../../img/phoneIMG.svg';
 import inst from "../../img/instagramICO.svg";
+import teleg from "../../img/telegram.svg";
 
 const Footer = () => {
     return (
@@ -17,9 +18,17 @@ const Footer = () => {
                             <p><a href="mailto:foxwebduo@gmail.com">foxwebduo@gmail.com</a></p>
                         </div>
                         <div className='footer__info-item-label'>
+                            <img src={teleg} alt="telegramm" />
+                            <a href='https://t.me/chazychazz'>Roman</a>
+                        </div>
+                        <div className='footer__info-item-label'>
+                            <img src={teleg} alt="telegramm" />
+                            <a href='https://t.me/KellaCh1'>Viktor</a>
+                        </div>
+                        {/* <div className='footer__info-item-label'>
                             <img src={phone} alt="" className="footer__info-svg" />
                             <p><a href="tel:+375256263144">+375256263144</a></p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="footer__info-socials">
                         <p className="footer__info-item-title">Socials</p>

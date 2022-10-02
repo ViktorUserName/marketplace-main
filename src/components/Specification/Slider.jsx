@@ -24,24 +24,24 @@ const Slider = () => {
                 delay: 3000,
                 disableOnInteraction: false,
             }}
-            slidePerView="auto"
+            slideperview="auto"
             >
             <SwiperSlide>
                     <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a slider-image">
                         <img src={img1} alt="Coffe-shop example" className="teest" />
-                        <h1 className="web-info">Single-page application for coffee shop. The app has 3 examples of slider.</h1>
+                        <h1 className="web-info">Adaptive landing page application for coffee shop.</h1>
                     </a>
             </SwiperSlide>
             <SwiperSlide>
                     <a href="https://hause-2a7ddc.netlify.app/"  target='_blank' className="slider-a slider-image">
                         <img src={img2} alt="Premium alcohol shop example" className="teest" />
-                        <h1 className="web-info">Single-page application for Premium alcohol shop.</h1>
+                        <h1 className="web-info">Adaptive landing page application for Premium alcohol shop.</h1>
                     </a>
             </SwiperSlide>
             <SwiperSlide>
-                    <a href="#"  target='_blank' className="slider-a slider-image">
+                    <a href="https://tasty-eat.netlify.app"  target='_blank' className="slider-a slider-image">
                         <img src={img3} alt="Restaurant example" className="teest" />
-                        <h1 className="web-info">Single-page application for restaurant.</h1>
+                        <h1 className="web-info">Adaptive landing page application for restaurant.</h1>
                     </a>
             </SwiperSlide>
             </Swiper>
