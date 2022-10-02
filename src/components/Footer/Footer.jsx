@@ -14,16 +14,16 @@ const Footer = () => {
                     <div className="footer__info-item">
                         <p className="footer__info-item-title">Contact information</p>
                         <div className='footer__info-item-label'>
-                            <img src={emeil} alt="" className="footer__info-svg" />
-                            <p><a href="mailto:foxwebduo@gmail.com">foxwebduo@gmail.com</a></p>
-                        </div>
-                        <div className='footer__info-item-label'>
                             <img src={teleg} alt="telegramm" />
                             <a href='https://t.me/chazychazz'>Roman</a>
                         </div>
                         <div className='footer__info-item-label'>
                             <img src={teleg} alt="telegramm" />
                             <a href='https://t.me/KellaCh1'>Viktor</a>
+                        </div>
+                        <div className='footer__info-item-label'>
+                            <img src={emeil} alt="" className="footer__info-svg" />
+                            <p><a href="mailto:foxwebduo@gmail.com">foxwebduo@gmail.com</a></p>
                         </div>
                         {/* <div className='footer__info-item-label'>
                             <img src={phone} alt="" className="footer__info-svg" />
