@@ -11,10 +11,13 @@ const Banner = () => {
                         Web Studio
                     </p>
                     <h1 className="banner-content__title">
-                    Сreate easy solutions for difficult tasks and problems
+                    we create websites & apps
                     </h1>
-                    <a href="#ourWork" className="banner-content__btn">
-                        Our Works
+                    <p className="banner-content__subtitle">
+                    Create and maintain a quality web product is our priority
+                    </p>
+                    <a href="#request" className="banner-content__btn">
+                        Let`s talk
                     </a>
                 </div>
             </div>

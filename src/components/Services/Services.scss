@@ -58,7 +58,13 @@
     text-align: left;
     margin-top: 12px;
 }
-
+@media (max-width: 1017px){
+    .services-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+}
 @media (max-width: 800px){
     .services-text__title {
         font-size: 29px;

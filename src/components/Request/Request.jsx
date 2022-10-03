@@ -19,13 +19,12 @@ const Request = () => {
   };
   
     return (
-        <section className='request'>
+        <section className='request' id='request'>
             <div className="wrapper">
                 <div className="request-content">
                     <h1 className="request__h1">LET`S TALK</h1>
                     <p className="request__text">Please provide your contact details</p>
                             <form ref={form} onSubmit={sendEmail} className="request__form">
-                        {/* <form action="#" method='post' className="request__form"> */}
                             <div>
                                 <input type="text" name="name" required placeholder="Name" className="request__form-input"/>
                                 <input type="email" name="email-text" required placeholder="Email" className="request__form-input"/>

@@ -30,6 +30,10 @@
                 line-height: 20px;
                 color: #FFFFFF;
                 transition: 0.5s;
+                @media (max-width: 350px) {
+                    font-size: 14px;
+                }
+                
             }
             &-item a:hover{
                 color: goldenrod;

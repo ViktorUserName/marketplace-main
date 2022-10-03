@@ -4,6 +4,8 @@ import "../../Index.scss"
 import SPA from '../../img/SPA.svg'
 import MPA from '../../img/MPA.svg'
 import uxui from '../../img/uxui.svg'
+import maintain from '../../img/maintain.svg'
+
 
 const Services = () => {
     return (
@@ -12,10 +14,10 @@ const Services = () => {
                 <div className='services-content'>
                     <div className="services-text">
                         <h2 className='services-text__title'>
-                            We create desktop web applications
+                            Create desktop web applications
                         </h2>
                         <p className="services-text__subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit ut fugit eveniet commodi labore saepe autem magni non animi?
+                        We offer services in web apps development, help you choose the UI / UX design for your application. We utilize a wide variety of libraries and frameworks to meet your specific needs.
                         </p>
                     </div>
                     <div className="services-items">
@@ -23,21 +25,28 @@ const Services = () => {
                             <img src={uxui} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
                                 <h3 className="item-text__title">UX/UI</h3>
-                                <p className="item-text__subtitle">We help to choose design</p>
+                                <p className="item-text__subtitle">Help to choose design</p>
                             </div>
                         </div>
                         <div className="services-items__item">
                             <img src={SPA} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
                                 <h3 className="item-text__title">Single-page application</h3>
-                                <p className="item-text__subtitle">Create SPA from scratch and add new to your project</p>
+                                <p className="item-text__subtitle">Create SPA & add new functional to your project</p>
                             </div>
                         </div>
                         <div className="services-items__item">
                             <img src={MPA} alt="" className="services-items__item-img" />
                             <div className="services-items__item-text">
                                 <h3 className="item-text__title">Multi-page application</h3>
-                                <p className="item-text__subtitle">Create MPA from scratch and add new to your project</p>
+                                <p className="item-text__subtitle">Create MPA & add new functional to your project</p>
+                            </div>
+                        </div>
+                        <div className="services-items__item">
+                            <img src={maintain} alt="" className="services-items__item-img" />
+                            <div className="services-items__item-text">
+                                <h3 className="item-text__title">Maintenance</h3>
+                                <p className="item-text__subtitle">We support the web product after the release</p>
                             </div>
                         </div>
                     </div>
