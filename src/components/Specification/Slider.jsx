@@ -11,6 +11,7 @@ import 'swiper/scss/pagination';
 import img1 from "../../img/examples/coffee.png";
 import img2 from "../../img/examples/hause.png";
 import img3 from "../../img/examples/taste-eat.png";
+import img4 from "../../img/examples/dubai.png";
 
 const Slider = () => {
     return (
@@ -26,6 +27,12 @@ const Slider = () => {
             }}
             slideperview="auto"
             >
+            <SwiperSlide>
+                    <a href="https://dubai-realty-ex.netlify.app/"  target='_blank' className="slider-a slider-image">
+                        <img src={img4} alt="Coffe-shop example" className="teest" />
+                        <h1 className="web-info">Adaptive SPA application for Dubai Realty.</h1>
+                    </a>
+            </SwiperSlide>
             <SwiperSlide>
                     <a href="https://coffee-fox.netlify.app/"  target='_blank' className="slider-a slider-image">
                         <img src={img1} alt="Coffe-shop example" className="teest" />
