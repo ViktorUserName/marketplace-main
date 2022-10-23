@@ -58,3 +58,30 @@
         padding: 80px 0 160px 0;
     }
 }
+
+.popupWindow {
+    display: none;
+    &Svg {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+    &Active {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 1000;    
+        &Cont {
+            position: relative;
+            background: #FFFFFF;
+            padding: 30px 60px;
+        }
+    }
+}
